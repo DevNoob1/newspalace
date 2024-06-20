@@ -1,0 +1,32 @@
+header {
+    background: url(./pngwing.com.png);
+    background-size: cover;
+    background-position: bottom;
+    zoom: 1.2;
+}
+
+/* For small screens */
+@media (max-width: 640px) {
+    header {
+        background-size: contain;
+        zoom: 1;
+    }
+}
+
+/* For medium screens */
+@media (min-width: 641px) and (max-width: 1024px) {
+    header {
+        background-size: cover;
+        background-position: center;
+        zoom: 1.1;
+    }
+}
+
+/* For large screens */
+@media (min-width: 1025px) {
+    header {
+        background-size: cover;
+        background-position: bottom;
+        zoom: 1.2;
+    }
+}
